@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Create a Bundle object and add data to it
                 Bundle bundle = new Bundle();
-                bundle.putString("message", "Passing data is cool!"); // Replace "key" and "value" with your own data
+                bundle.putString("message", "Passing data is cool!");
 
                 // Pass Bundle object to Intent.
                 intent.putExtras(bundle);
